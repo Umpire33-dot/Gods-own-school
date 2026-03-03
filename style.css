@@ -8,9 +8,9 @@
 
 body {
     display: grid;
-    grid-template-rows: 300px 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
     gap: 40px;
-    min-height: 90vh;
+    min-height: 100vh;
     background: url("student2.jpeg") no-repeat center;
     border-bottom-left-radius: 50% 10%;
     border-bottom-right-radius: 50% 10%;
@@ -36,7 +36,7 @@ header {
     padding: 40px;
 }
 button {
-    background-color: lightslategrey;
+    background-color: darkseagreen;
     border-radius: 10px;
     cursor: pointer;
     padding: 12px 25px;
@@ -61,6 +61,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 35px;
+    
     pad: 40px 20px;
     text-align: center;
     align-items: center;
@@ -76,6 +77,7 @@ main {
     padding: 80px 20px;
     margin: auto;
     max-width: 700px;
+    
 }
 main > section {
     flex: 1 1 280px;
@@ -102,7 +104,6 @@ main > section {
 
 
 footer {
-    display: auto 100px;
     align-items: center;
     justify-content: center;
     background: white;
@@ -127,13 +128,13 @@ h3 {
     font-weight: 500;
 }
 .copyright {
-    min-height: 50%;
+    
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
     background: white;
     flex: 1;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 25px;
 }
 a {
     text-decoration: none;
