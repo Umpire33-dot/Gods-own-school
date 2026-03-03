@@ -10,7 +10,7 @@ body {
     display: grid;
     grid-template-rows: 300px 1fr 1fr;
     gap: 40px;
-    height: 80vh;
+    min-height: 90vh;
     background: url("student2.jpeg") no-repeat center;
     border-bottom-left-radius: 50% 10%;
     border-bottom-right-radius: 50% 10%;
@@ -82,7 +82,7 @@ main > section {
 }
  h2 {
     color: lightcyan;
-    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     text-decoration: underline;
     padding-bottom: 8px;
@@ -117,7 +117,7 @@ footer {
     margin-bottom: 20px;
     
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    line-height: 3vh;
+     line-height: 3vh;
 }
 h3 {
     padding-bottom: 15px;
