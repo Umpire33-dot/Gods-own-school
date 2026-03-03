@@ -17,6 +17,9 @@ body {
     background-size: cover;
     position: relative;
 }
+
+
+
 header {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -25,7 +28,7 @@ header {
 .bottom-header {
     display: flex;
     align-items: center;
-    background: white;
+    background: #722f37;
 }
 .goic {
     flex: 1;
@@ -33,11 +36,11 @@ header {
     padding: 40px;
 }
 button {
-    background-color: #b22222;
+    background-color: lightslategrey;
     border-radius: 10px;
     cursor: pointer;
     padding: 12px 25px;
-    color: aliceblue;
+    color: whitesmoke;
     border: none;
     font-weight: 800;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -124,7 +127,7 @@ h3 {
     font-weight: 500;
 }
 .copyright {
-    height: 50%;
+    min-height: 50%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
     background: white;
